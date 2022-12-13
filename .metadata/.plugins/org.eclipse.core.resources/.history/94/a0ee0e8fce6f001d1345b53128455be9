@@ -1,0 +1,70 @@
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLConnection;
+import java.util.Timer;
+import java.util.TimerTask;
+
+public class Size {
+
+	public static void main(String[] args) {
+//		Timer t = new Timer();
+//		TimerTask tt = new TimerTask() {
+//			public void run() {
+//				t.cancel();
+//				System.out.println("hello");
+//			};
+//		};
+//		t.schedule(tt, 60000);
+//		
+//		URL url=null;
+//		try {
+//			url = new URL("https://files.rcsb.org/download/6DQW.cif.gz");
+//		} catch (MalformedURLException e1) {
+//			// TODO Auto-generated catch block
+//			e1.printStackTrace();
+//		}
+//		URLConnection urlConnection= null;
+//		try {
+//			urlConnection = url.openConnection();
+//		} catch (IOException e1) {
+//			// TODO Auto-generated catch block
+//			e1.printStackTrace();
+//		}
+//		try {
+//			urlConnection.connect();
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//		int file_size = urlConnection.getContentLength();
+//		System.out.println(file_size);
+//		
+//		URL url1=null;
+//		try {
+//			url1 = new URL("https://files.rcsb.org/download/2EKD.cif.gz");
+//		} catch (MalformedURLException e1) {
+//			// TODO Auto-generated catch block
+//			e1.printStackTrace();
+//		}
+//		URLConnection urlConnection1= null;
+//		try {
+//			urlConnection1 = url1.openConnection();
+//		} catch (IOException e1) {
+//			// TODO Auto-generated catch block
+//			e1.printStackTrace();
+//		}
+//		try {
+//			urlConnection1.connect();
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//		int file_size1 = urlConnection1.getContentLength();
+//		System.out.println(file_size1);
+		int num = (int) Math.ceil((double)2/10);
+		System.out.println(num);
+	}
+
+}

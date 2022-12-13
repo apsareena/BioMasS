@@ -1,0 +1,2 @@
+127.0.0.1 - - [18/Oct/2022:11:07:39 +0530] "POST /BIOMaaS/fileUpload.jsp HTTP/1.1" 200 3277
+127.0.0.1 - - [18/Oct/2022:11:08:12 +0530] "POST /BIOMaaS/Downloadfile.jsp HTTP/1.1" 200 1202

@@ -1,0 +1,12 @@
+INDEX VERSION 1.4+/home/srm/ew2/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+1766792464.index
+129848132.index
+2553821726.index
+2985374193.index
+2123383601.index
+1493809.index
+2985374193.index
+3405456544.index
+3072451183.index
+71792010.index
+3427466996.index

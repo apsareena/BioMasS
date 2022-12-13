@@ -1,0 +1,10 @@
+package com.biom;
+
+public class StatisticalValues {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
