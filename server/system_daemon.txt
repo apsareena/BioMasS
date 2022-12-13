@@ -1,0 +1,13 @@
+[Unit]
+Description=IDP project service
+After=multi-user.target
+Conflicts=getty@tty1.service
+
+[Service]
+Type=simple
+WorkingDirectory = /home/ubuntu
+ExecStart = /usr/bin/java idp.Server
+User=ubuntu
+
+[Install]
+WantedBy=multi-user.target
