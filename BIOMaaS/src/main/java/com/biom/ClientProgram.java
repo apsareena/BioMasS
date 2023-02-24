@@ -198,7 +198,7 @@ private static void startTimer(VmProperties vm, String timer_tag, FlavorProperti
 			    VM.deleteVM(vm);
 			};
 		};
-		t.schedule(tt, 300000);
+		t.schedule(tt, 900000);
 		vm_timer.put(vm.getFloating_ip(), t);
 	} else {
 		vm_timer.get(vm.getFloating_ip()).cancel();
