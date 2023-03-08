@@ -5,7 +5,7 @@ import java.util.List;
 public class FlavorProperties {
 	
 	// maximum proteins a vm can hold
-    final int SMALL_MAX = 50;
+    final int SMALL_MAX = 17;
     final int MEDIUM_MAX = 15;
     final int LARGE_MAX = 10;
     
